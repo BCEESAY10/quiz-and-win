@@ -102,7 +102,7 @@ export default function Register() {
               name="paymentMethod"
               value={formData.paymentMethod}
               onChange={handleChange}
-              className="mt-1 block w-full pl-3 pr-10 py-2 bg-white/5 border border-gray-600 rounded-md text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="mt-1 block w-full pl-3 pr-10 py-2 bg-white/5 border border-gray-600 rounded-md text-ring-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
             >
               <option value="WAVE">WAVE</option>
               <option value="APS">APS</option>
